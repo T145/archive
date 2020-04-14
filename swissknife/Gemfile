@@ -1,0 +1,3 @@
+source 'https://rubygems.org'
+
+gemspec # all dependencies should be listed in the *.gemspec

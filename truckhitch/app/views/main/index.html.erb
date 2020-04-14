@@ -1,0 +1,86 @@
+<style type="text/css">
+    html,
+    body {
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
+    }
+
+    /* Wrapper for page content to push down footer */
+    #wrap {
+        min-height: 100%;
+        height: auto !important;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+    }
+
+    /* Set the fixed height of the footer here */
+    #push,
+    #footer {
+        height: 60px;
+    }
+
+    #footer {
+        background-color: #f5f5f5;
+    }
+
+    /* Lastly, apply responsive CSS fixes as necessary */
+    @media (max-width: 767px) {
+        #footer {
+            margin-left: -20px;
+            margin-right: -20px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+
+    .container {
+        width: auto;
+        max-width: 680px;
+    }
+
+    .container .credit {
+        margin: 20px 0;
+    }
+
+    .provider {
+        border: 1px solid #D8D8D8;
+        border-bottom-width: 2px;
+        border-top-width: 0;
+        background-color: #FFF;
+        max-width: 350px;
+        padding: 19px 29px 29px;
+        margin: 0 auto 20px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+
+    .provider .checkbox {
+        margin-bottom: 10px;
+    }
+</style>
+
+<script>
+    audiojs.events.ready(function () {
+        var as = audiojs.createAll();
+    });
+</script>
+
+<div id="wrap">
+  <div class="container">
+    <div class="page-header">
+      <h1>TruckHitch</h1>
+    </div>
+
+    <h2 class="provider-heading">Get Ready!</h2>
+    <audio src="https://dl.dropboxusercontent.com/u/20985653/seasonsgreetings.mp3" loop="true" preload="auto"></audio>
+  </div>
+
+  <div id="push"></div>
+</div>
+
+<div id="footer">
+  <div class="container">
+    <p class="muted credit">&copy; <a href="https://github.com/T145">Taylor Shuler</a> 2014</p>
+  </div>
+</div>

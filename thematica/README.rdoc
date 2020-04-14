@@ -1,0 +1,4 @@
+= thematica
+{<img src="https://codeclimate.com/github/T145/thematica/badges/gpa.svg" />}[https://codeclimate.com/github/T145/thematica]
+
+A simple test website to experiment with theme swapping!

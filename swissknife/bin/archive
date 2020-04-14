@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'swissknife'
+
+SwissKnife::Util.new.archive ARGV[0], ARGV[1]

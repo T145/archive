@@ -1,0 +1,9 @@
+import org.apache.tools.ant.taskdefs.condition.Os
+
+task gopath(type:Exec) {
+	if (Os.isFamily(Os.FAMILY_WINDOWS)) {
+		commandLine 'scripts/gopath.bat'
+	} else {
+		commandLine 'bash scripts/gopath.sh'
+	}
+}

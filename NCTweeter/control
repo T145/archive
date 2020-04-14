@@ -1,0 +1,9 @@
+Package: com.T145.nctweeter
+Name: NCTweeter
+Depends: firmware (>= 5.0), com.saurik.substrate.safemode, com.chpwn.weeloader
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome widget for the notification center!
+Maintainer: Taylor Shuler
+Author: Taylor Shuler
+Section: Addons (NotificationCenter)

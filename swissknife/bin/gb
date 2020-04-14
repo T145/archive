@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'swissknife'
+
+SwissKnife::Util.new.git_branch(ARGV[0])
